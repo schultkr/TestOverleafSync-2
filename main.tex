@@ -1,5 +1,7 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+
 
 \title{Test OverleafSync}
 \author{IWH Macro department}
@@ -38,11 +40,28 @@ $4+3=7$
 \subsection{Playground 6: Berta}
 
 \subsection{Playground 7: Lukas}
+Consider a small open economy subject to random exogenous shocks in its primary export sector. Let \( Y_t \) denote GDP at time \( t \), with the stochastic process 
+
+\[
+Y_t = A_t K_t^\alpha L_t^{1-\alpha},
+\]
+
+where \( A_t \) is total factor productivity (TFP), \( K_t \) is capital, and \( L_t \) is labor. Now, suppose TFP evolves according to a bizarrely specific rule: 
+
+\[
+A_t = A_{t-1} e^{\varepsilon_t}, \quad \text{where } \varepsilon_t \sim \mathcal{N}(\mu, \sigma^2) + \zeta \sin(\pi t).
+\]
+
+The inclusion of \( \zeta \sin(\pi t) \) introduces cyclical "weirdness," perhaps reflecting the influence of periodic alien invasions (or central bank interventions that feel like it). Importantly, these shocks disrupt not only production but also the cognitive coherence of economic agents, modeled by a random walk in their discount rate 
+
+\[
+\beta_t = \beta_{t-1} + \eta_t, \quad \text{with } \eta_t \sim \mathcal{N}(0, \nu^2).
+\]
+
+This setup implies that investment dynamics follow a path of chaotic determinism, as agents struggle to reconcile long-term optimization with their short-term confusion. Empirical validation requires an unprecedented dataset, preferably involving extraterrestrial phenomena or an unusually experimental central bank.
 
 \subsection{Playground 8: Marie}
 
- Important analysis about important things:
- $y = \alpha + \beta x $
 
 \subsection{Playground 9}
 
